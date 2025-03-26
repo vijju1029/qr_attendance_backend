@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: #ff416c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff4b2b;
+  }
+  
