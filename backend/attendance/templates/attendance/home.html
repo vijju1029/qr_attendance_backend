@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Attendance</title>
+    <style>
+        body {
+            background: url('/static/background.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        a {
+            color: cyan;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            border: 1px solid cyan;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: cyan;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to QR Code Attendance</h1>
+        <a href="{% url 'employee_list' %}">View Employees</a>
+        
+    </div>
+</body>
+</html>
